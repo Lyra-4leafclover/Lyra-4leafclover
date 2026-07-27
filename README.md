@@ -93,7 +93,7 @@
 
   <!-- REAL-TIME STREAK STATS -->
   <a href="https://github.com/Lyra-4leafclover">
-    <img src="https://streak-stats.demolab.com/?user=Lyra-4leafclover&background=1E1A1B&border=362F32&stroke=E5A9B8&ring=E5A9B8&fire=F0B2BE&currStreakNum=E8E2D9&sideNums=E8E2D9&currStreakLabel=E5A9B8&sideLabels=A89F95&dates=A89F95" alt="Real-Time Streak Stats" width="94%"/>
+    <img src="https://streak-stats.demolab.com/?user=Lyra-4leafclover&theme=dark&stroke=E5A9B8&ring=E5A9B8&fire=F0B2BE" alt="Real-Time Streak Stats" width="94%"/>
   </a>
 
 </div>
