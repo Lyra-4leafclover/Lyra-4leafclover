@@ -33,12 +33,9 @@
 
 ## 🥀 About Me
 
-```yaml
-identity:
-  role: Student of B.Tech Computer Science
-  passions: [Data Analytics, Data Engineering, IoT, Creative Coding, UI/UX, AI]
-  current_focus: Data Engineering, AI & Creative Software Development
-```
+<div align="center">
+  <img src="about-card.svg" alt="About Me Identity" width="94%"/>
+</div>
 
 <br/>
 
