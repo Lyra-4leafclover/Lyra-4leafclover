@@ -101,17 +101,11 @@
 
 <div align="center">
 
-  <a href="https://github.com/Lyra-4leafclover">
-    <img src="https://img.shields.io/badge/GitHub-1E1A1B?style=for-the-badge&logo=github&logoColor=E5A9B8" alt="GitHub"/>
-  </a>
-  &nbsp;
-  <a href="https://linkedin.com">
-    <img src="https://img.shields.io/badge/LinkedIn-1E1A1B?style=for-the-badge&logo=linkedin&logoColor=E5A9B8" alt="LinkedIn"/>
-  </a>
-  &nbsp;
-  <a href="mailto:your.email@example.com">
-    <img src="https://img.shields.io/badge/Email-1E1A1B?style=for-the-badge&logo=gmail&logoColor=E5A9B8" alt="Email"/>
-  </a>
+  <a href="https://github.com/Lyra-4leafclover"><img src="https://img.shields.io/badge/GitHub-1E1A1B?style=for-the-badge&logo=github&logoColor=E5A9B8" alt="GitHub"/></a>
+  <a href="https://orion-the-hunter-blog.vercel.app/"><img src="https://img.shields.io/badge/Website-1E1A1B?style=for-the-badge&logo=vercel&logoColor=E5A9B8" alt="Website"/></a>
+  <a href="https://x.com/Lyra_void"><img src="https://img.shields.io/badge/X-1E1A1B?style=for-the-badge&logo=x&logoColor=E5A9B8" alt="X"/></a>
+  <a href="https://www.reddit.com/user/Lyra-4leafclover/"><img src="https://img.shields.io/badge/Reddit-1E1A1B?style=for-the-badge&logo=reddit&logoColor=E5A9B8" alt="Reddit"/></a>
+  <a href="mailto:dollarssparklevoid@gmail.com"><img src="https://img.shields.io/badge/Email-1E1A1B?style=for-the-badge&logo=gmail&logoColor=E5A9B8" alt="Email"/></a>
 
   <br/><br/>
 

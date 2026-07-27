@@ -202,23 +202,24 @@
       width: 85%;
     }
 
-    .bio-box {
-      background: #1A1617;
-      border: 1px solid #362F32;
-      border-radius: 12px;
-      padding: 1rem 1.2rem;
-      font-family: 'Fira Code', monospace;
-      font-size: 0.88rem;
-      color: var(--accent-rose);
-      margin: 1rem 0;
-    }
-
     .tech-badges {
       display: flex;
       flex-wrap: wrap;
       gap: 8px;
       justify-content: center;
       margin: 1.2rem 0;
+    }
+
+    .social-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin: 1rem 0;
+    }
+
+    .social-badges a {
+      text-decoration: none;
     }
 
     .toast {
@@ -261,30 +262,27 @@
         <h2 class="section-title">✦ Identity Settings</h2>
         <div class="form-group" style="margin-top: 10px;">
           <label>GitHub Username</label>
-          <input type="text" id="input-username" value="Lyra-4leafclover" oninput="updatePreview()"/>
+          <input type="text" id="input-username" value="Lyra-4leafclover" readonly/>
         </div>
       </div>
 
       <div>
-        <h2 class="section-title">✦ Favorite Quote</h2>
+        <h2 class="section-title">✦ Social Links</h2>
         <div class="form-group">
-          <textarea id="input-quote" oninput="updatePreview()">"Art is not what you see, but what you make others see."</textarea>
-        </div>
-      </div>
-
-      <div>
-        <h2 class="section-title">✦ Bio Info</h2>
-        <div class="form-group">
-          <label>Role</label>
-          <input type="text" id="input-role" value="Student of B.Tech Computer Science" oninput="updatePreview()"/>
+          <label>Personal Website</label>
+          <input type="text" value="https://orion-the-hunter-blog.vercel.app/" readonly/>
         </div>
         <div class="form-group" style="margin-top: 10px;">
-          <label>Passions</label>
-          <input type="text" id="input-passions" value="Data Analytics, Data Engineering, IoT, Creative Coding, UI/UX, AI" oninput="updatePreview()"/>
+          <label>X (Twitter)</label>
+          <input type="text" value="https://x.com/Lyra_void" readonly/>
         </div>
         <div class="form-group" style="margin-top: 10px;">
-          <label>Current Focus</label>
-          <input type="text" id="input-focus" value="Data Engineering, AI &amp; Creative Software Development" oninput="updatePreview()"/>
+          <label>Reddit</label>
+          <input type="text" value="https://www.reddit.com/user/Lyra-4leafclover/" readonly/>
+        </div>
+        <div class="form-group" style="margin-top: 10px;">
+          <label>Email</label>
+          <input type="text" value="dollarssparklevoid@gmail.com" readonly/>
         </div>
       </div>
     </div>
@@ -300,7 +298,7 @@
           <img id="preview-typing-img" src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=600&size=22&duration=3000&pause=1000&color=E5A9B8&center=true&vCenter=true&width=500&lines=Welcome+to+my+digital+atelier;Building+thoughtful+software;Where+creativity+meets+code" alt="Typing SVG"/>
         </div>
 
-        <div class="quote-box" id="preview-quote">
+        <div class="quote-box">
           <i>"Art is not what you see, but what you make others see."</i><br/>
           <sub style="color: var(--text-muted);"><b>✦ Crafting functional beauty in code ✦</b></sub>
         </div>
@@ -333,12 +331,27 @@
 
         <h3 style="color: var(--accent-rose); font-family: 'Cinzel', serif; margin-bottom: 0.3rem; text-align: center;">📊 Live Real-Time GitHub Analytics</h3>
         <p style="text-align: center; font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1rem;">
-          ⚡ <i>100% Real-time live synced with Lyra-4leafclover's GitHub commits &amp; activity</i>
+          ⚡ <i>100% Real-time live synced for Lyra-4leafclover</i>
         </p>
         <div style="text-align: center; display: flex; flex-direction: column; gap: 16px; align-items: center;">
           <img src="https://github-readme-activity-graph.vercel.app/graph?username=Lyra-4leafclover&bg_color=1E1A1B&color=E5A9B8&line=E5A9B8&point=F0B2BE&area=true&hide_border=false&border=362F32" width="94%" style="border-radius: 8px;"/>
           <img src="https://streak-stats.demolab.com/?user=Lyra-4leafclover&theme=dark&stroke=E5A9B8&ring=E5A9B8&fire=F0B2BE" width="94%" style="border-radius: 8px;"/>
         </div>
+
+        <img src="divider.svg" class="divider-img"/>
+
+        <h3 style="color: var(--accent-rose); font-family: 'Cinzel', serif; margin-bottom: 0.5rem; text-align: center;">🕯️ Connect with Lyra</h3>
+        <div class="social-badges">
+          <a href="https://github.com/Lyra-4leafclover" target="_blank"><img src="https://img.shields.io/badge/GitHub-1E1A1B?style=for-the-badge&logo=github&logoColor=E5A9B8"/></a>
+          <a href="https://orion-the-hunter-blog.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Website-1E1A1B?style=for-the-badge&logo=vercel&logoColor=E5A9B8"/></a>
+          <a href="https://x.com/Lyra_void" target="_blank"><img src="https://img.shields.io/badge/X-1E1A1B?style=for-the-badge&logo=x&logoColor=E5A9B8"/></a>
+          <a href="https://www.reddit.com/user/Lyra-4leafclover/" target="_blank"><img src="https://img.shields.io/badge/Reddit-1E1A1B?style=for-the-badge&logo=reddit&logoColor=E5A9B8"/></a>
+          <a href="mailto:dollarssparklevoid@gmail.com"><img src="https://img.shields.io/badge/Email-1E1A1B?style=for-the-badge&logo=gmail&logoColor=E5A9B8"/></a>
+        </div>
+
+        <p style="text-align: center; font-size: 0.88rem; color: var(--text-muted); margin-top: 1rem;">
+          <i>"Never regret having a good heart. Everything comes back to you, multiplied."</i> 🌸
+        </p>
 
       </div>
     </div>
@@ -347,30 +360,11 @@
   <div class="toast" id="toast">✨ Markdown Copied to Clipboard!</div>
 
   <script>
-    function updatePreview() {
-      const username = document.getElementById('input-username').value.trim() || 'Lyra-4leafclover';
-      const quote = document.getElementById('input-quote').value;
-      const role = document.getElementById('input-role').value;
-      const passions = document.getElementById('input-passions').value;
-      const focus = document.getElementById('input-focus').value;
-
-      document.getElementById('preview-quote').innerHTML = `<i>"${quote}"</i><br/><sub style="color: var(--text-muted);"><b>✦ Crafting functional beauty in code ✦</b></sub>`;
-      document.getElementById('preview-role').textContent = role;
-      document.getElementById('preview-passions').textContent = passions;
-      document.getElementById('preview-focus').textContent = focus;
-    }
-
     function openSvgBanner() {
       window.open('header-banner.svg', '_blank');
     }
 
     function copyMarkdown() {
-      const username = document.getElementById('input-username').value.trim() || 'Lyra-4leafclover';
-      const quote = document.getElementById('input-quote').value;
-      const role = document.getElementById('input-role').value;
-      const passions = document.getElementById('input-passions').value;
-      const focus = document.getElementById('input-focus').value;
-
       const markdown = `<div align="center">
   <img src="header-banner.svg" alt="Header Banner" width="100%"/>
   <br/><br/>
@@ -379,7 +373,7 @@
   </a>
   <br/>
   <p align="center">
-    <i>"${quote}"</i><br/>
+    <i>"Art is not what you see, but what you make others see."</i><br/>
     <sub><b>✦ Crafting functional beauty in code ✦</b></sub>
   </p>
   <img src="divider.svg" width="80%"/>
@@ -390,7 +384,7 @@
 ## 🥀 About Me
 
 <div align="center">
-  <img src="about-card.svg?v=2" alt="About Me Identity" width="94%"/>
+  <img src="about-me-card.svg" alt="About Me Identity" width="94%"/>
 </div>
 
 <div align="center">
@@ -413,6 +407,42 @@
   <img src="https://img.shields.io/badge/Vercel-1E1A1B?style=for-the-badge&logo=vercel&logoColor=E5A9B8"/>
   <img src="https://img.shields.io/badge/JetBrains-1E1A1B?style=for-the-badge&logo=jetbrains&logoColor=E5A9B8"/>
   <img src="https://img.shields.io/badge/VS_Code-1E1A1B?style=for-the-badge&logo=visualstudiocode&logoColor=E5A9B8"/>
+</div>
+
+<div align="center">
+  <img src="divider.svg" width="80%"/>
+</div>
+
+<br/>
+
+## 📊 Live Real-Time GitHub Analytics
+
+<div align="center">
+  <a href="https://github.com/Lyra-4leafclover">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Lyra-4leafclover&bg_color=1E1A1B&color=E5A9B8&line=E5A9B8&point=F0B2BE&area=true&hide_border=false&border=362F32" alt="Real-Time Contribution Activity Graph" width="94%"/>
+  </a>
+  <br/><br/>
+  <a href="https://github.com/Lyra-4leafclover">
+    <img src="https://streak-stats.demolab.com/?user=Lyra-4leafclover&theme=dark&stroke=E5A9B8&ring=E5A9B8&fire=F0B2BE" alt="Real-Time Streak Stats" width="94%"/>
+  </a>
+</div>
+
+<div align="center">
+  <img src="divider.svg" width="80%"/>
+</div>
+
+<br/>
+
+## 🕯️ Connect with Lyra
+
+<div align="center">
+  <a href="https://github.com/Lyra-4leafclover"><img src="https://img.shields.io/badge/GitHub-1E1A1B?style=for-the-badge&logo=github&logoColor=E5A9B8" alt="GitHub"/></a>
+  <a href="https://orion-the-hunter-blog.vercel.app/"><img src="https://img.shields.io/badge/Website-1E1A1B?style=for-the-badge&logo=vercel&logoColor=E5A9B8" alt="Website"/></a>
+  <a href="https://x.com/Lyra_void"><img src="https://img.shields.io/badge/X-1E1A1B?style=for-the-badge&logo=x&logoColor=E5A9B8" alt="X"/></a>
+  <a href="https://www.reddit.com/user/Lyra-4leafclover/"><img src="https://img.shields.io/badge/Reddit-1E1A1B?style=for-the-badge&logo=reddit&logoColor=E5A9B8" alt="Reddit"/></a>
+  <a href="mailto:dollarssparklevoid@gmail.com"><img src="https://img.shields.io/badge/Email-1E1A1B?style=for-the-badge&logo=gmail&logoColor=E5A9B8" alt="Email"/></a>
+  <br/><br/>
+  <p align="center"><i>"Never regret having a good heart. Everything comes back to you, multiplied."</i> 🌸</p>
 </div>`;
 
       navigator.clipboard.writeText(markdown).then(() => {
