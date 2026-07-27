@@ -33,18 +33,12 @@
 
 ## 🥀 About Me
 
-<div align="center">
-  <table width="92%" style="background-color: #1A1617; border: 1px solid #362F32; border-radius: 12px; padding: 16px;">
-    <tr>
-      <td style="font-family: 'Fira Code', 'Courier New', monospace; font-size: 14px; color: #E5A9B8; background-color: #1A1617; border: none; text-align: left;">
-        <span style="color: #627880;">identity:</span><br/>
-        &nbsp;&nbsp;<span style="color: #A89F95;">role:</span> <span style="color: #E5A9B8; font-weight: bold;">Student of B.Tech Computer Science</span><br/>
-        &nbsp;&nbsp;<span style="color: #A89F95;">passions:</span> [<span style="color: #E5A9B8;">Data Analytics, Data Engineering, IoT, Creative Coding, UI/UX, AI</span>]<br/>
-        &nbsp;&nbsp;<span style="color: #A89F95;">current_focus:</span> <span style="color: #E5A9B8;">Data Engineering, AI &amp; Creative Software Development</span>
-      </td>
-    </tr>
-  </table>
-</div>
+```yaml
+identity:
+  role: Student of B.Tech Computer Science
+  passions: [Data Analytics, Data Engineering, IoT, Creative Coding, UI/UX, AI]
+  current_focus: Data Engineering, AI & Creative Software Development
+```
 
 <br/>
 
