@@ -77,14 +77,14 @@
 
   <!-- REAL-TIME LIVE CONTRIBUTION GRAPH -->
   <a href="https://github.com/Lyra-4leafclover">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Lyra-4leafclover&bg_color=1E1A1B&color=E5A9B8&line=E5A9B8&point=F0B2BE&area=true&hide_border=false&border=362F32" alt="Real-Time Contribution Activity Graph" width="94%"/>
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Lyra-4leafclover&bg_color=1E1A1B&color=E5A9B8&line=E5A9B8&point=F0B2BE&area=true&hide_border=false&border=362F32" alt="Real-Time Contribution Activity Graph" width="82%"/>
   </a>
 
   <br/><br/>
 
   <!-- REAL-TIME STREAK STATS -->
   <a href="https://github.com/Lyra-4leafclover">
-    <img src="https://streak-stats.demolab.com/?user=Lyra-4leafclover&theme=dark&stroke=E5A9B8&ring=E5A9B8&fire=F0B2BE" alt="Real-Time Streak Stats" width="94%"/>
+    <img src="https://streak-stats.demolab.com/?user=Lyra-4leafclover&theme=dark&stroke=E5A9B8&ring=E5A9B8&fire=F0B2BE&currStreakLabel=E5A9B8" alt="Real-Time Streak Stats" width="82%"/>
   </a>
 
 </div>
