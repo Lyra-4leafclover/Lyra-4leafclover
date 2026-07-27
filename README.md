@@ -85,23 +85,13 @@ identity:
 
 <br/>
 
-## 📊 Live GitHub Analytics
+## 📊 GitHub Analytics & Overview
 
 <div align="center">
 
-  <a href="https://github.com/Lyra-4leafclover">
-    <img src="https://github-readme-stats.vercel.app/api?username=Lyra-4leafclover&show_icons=true&title_color=E5A9B8&text_color=E8E2D9&bg_color=1E1A1B&border_color=362F32&icon_color=F0B2BE&count_private=true" alt="GitHub Stats" width="48%"/>
-  </a>
+  <img src="stats-card.svg" alt="GitHub Overview Card" width="48%"/>
   &nbsp;
-  <a href="https://github.com/Lyra-4leafclover">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lyra-4leafclover&layout=compact&title_color=E5A9B8&text_color=E8E2D9&bg_color=1E1A1B&border_color=362F32&icon_color=F0B2BE" alt="Top Languages" width="45%"/>
-  </a>
-
-  <br/><br/>
-
-  <a href="https://github.com/Lyra-4leafclover">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Lyra-4leafclover&background=1E1A1B&border=362F32&stroke=E5A9B8&ring=E5A9B8&fire=F0B2BE&currStreakNum=E8E2D9&sideNums=E8E2D9&currStreakLabel=E5A9B8&sideLabels=A89F95&dates=A89F95" alt="GitHub Streak" width="94%"/>
-  </a>
+  <img src="languages-card.svg" alt="Core Stack Card" width="48%"/>
 
 </div>
 

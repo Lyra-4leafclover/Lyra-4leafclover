@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A1617"/>
+      <stop offset="100%" stop-color="#141112"/>
+    </linearGradient>
+
+    <linearGradient id="rose-bar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F2C4CE"/>
+      <stop offset="100%" stop-color="#E5A9B8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Card Frame -->
+  <rect width="450" height="200" rx="12" fill="url(#card-bg)" stroke="#362F32" stroke-width="1.5"/>
+
+  <!-- Card Title -->
+  <g transform="translate(25, 35)">
+    <text font-family="'Cinzel', 'Georgia', serif" font-size="15" font-weight="700" fill="#E5A9B8" letter-spacing="1.5">
+      CORE TECHNOLOGIES &amp; STACK
+    </text>
+    <line x1="0" y1="12" x2="400" y2="12" stroke="#E5A9B8" stroke-opacity="0.3" stroke-width="1"/>
+  </g>
+
+  <!-- Languages List -->
+  <g transform="translate(25, 70)" font-family="'Inter', sans-serif" font-size="12">
+
+    <!-- Python & Data -->
+    <g transform="translate(0, 0)">
+      <circle cx="6" cy="6" r="4" fill="#E5A9B8"/>
+      <text x="18" y="10" fill="#E8E2D9">Python &amp; Data Engineering</text>
+      <text x="390" y="10" text-anchor="end" fill="#E5A9B8">40%</text>
+      <rect x="18" y="16" width="372" height="6" rx="3" fill="#2A2426"/>
+      <rect x="18" y="16" width="148" height="6" rx="3" fill="url(#rose-bar)"/>
+    </g>
+
+    <!-- C & Systems -->
+    <g transform="translate(0, 32)">
+      <circle cx="6" cy="6" r="4" fill="#B88E9C"/>
+      <text x="18" y="10" fill="#E8E2D9">C Programming &amp; Systems</text>
+      <text x="390" y="10" text-anchor="end" fill="#B88E9C">30%</text>
+      <rect x="18" y="16" width="372" height="6" rx="3" fill="#2A2426"/>
+      <rect x="18" y="16" width="111" height="6" rx="3" fill="#B88E9C"/>
+    </g>
+
+    <!-- Databases & R -->
+    <g transform="translate(0, 64)">
+      <circle cx="6" cy="6" r="4" fill="#758D96"/>
+      <text x="18" y="10" fill="#E8E2D9">MySQL, SQLite &amp; R</text>
+      <text x="390" y="10" text-anchor="end" fill="#758D96">30%</text>
+      <rect x="18" y="16" width="372" height="6" rx="3" fill="#2A2426"/>
+      <rect x="18" y="16" width="111" height="6" rx="3" fill="#758D96"/>
+    </g>
+
+  </g>
+</svg>
