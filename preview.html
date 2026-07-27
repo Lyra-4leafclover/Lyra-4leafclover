@@ -203,9 +203,9 @@
     }
 
     .bio-box {
-      background: #161b22;
-      border: 1px solid #30363d;
-      border-radius: 8px;
+      background: #1A1617;
+      border: 1px solid #362F32;
+      border-radius: 12px;
       padding: 1rem 1.2rem;
       font-family: 'Fira Code', monospace;
       font-size: 0.88rem;
@@ -216,17 +216,9 @@
     .tech-badges {
       display: flex;
       flex-wrap: wrap;
-      gap: 10px;
+      gap: 8px;
       justify-content: center;
       margin: 1.2rem 0;
-    }
-
-    .stats-grid {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 16px;
-      justify-content: center;
-      margin: 1.5rem 0;
     }
 
     .toast {
@@ -369,9 +361,6 @@
       document.getElementById('preview-role').textContent = role;
       document.getElementById('preview-passions').textContent = passions;
       document.getElementById('preview-focus').textContent = focus;
-
-      document.getElementById('preview-stats').src = `https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&title_color=E5A9B8&text_color=E8E2D9&bg_color=1E1A1B&border_color=362F32&icon_color=F0B2BE&count_private=true`;
-      document.getElementById('preview-langs').src = `https://github-readme-stats.vercel.app/api/top-langs/?username=${username}&layout=compact&title_color=E5A9B8&text_color=E8E2D9&bg_color=1E1A1B&border_color=362F32&icon_color=F0B2BE`;
     }
 
     function openSvgBanner() {
@@ -403,16 +392,18 @@
 
 ## 🥀 About Me
 
-\`\`\`yaml
-identity:
-  role: ${role}
-  passions: [${passions}]
-  current_focus: ${focus}
-\`\`\`
-
-- 🔮 **Exploring**: Data Engineering pipelines, IoT systems, AI models, and clean design systems.
-- 🎨 **Aesthetic Palette**: Dark noir charcoal, dusty rose pink, and vintage parchment.
-- 💬 **Ask me about**: Python, R, C programming, SQL, and Data Analytics.
+<div align="center">
+  <table width="92%" style="background-color: #1A1617; border: 1px solid #362F32; border-radius: 12px; padding: 16px;">
+    <tr>
+      <td style="font-family: 'Fira Code', 'Courier New', monospace; font-size: 14px; color: #E5A9B8; background-color: #1A1617; border: none; text-align: left;">
+        <span style="color: #627880;">identity:</span><br/>
+        &nbsp;&nbsp;<span style="color: #A89F95;">role:</span> <span style="color: #E5A9B8; font-weight: bold;">${role}</span><br/>
+        &nbsp;&nbsp;<span style="color: #A89F95;">passions:</span> [<span style="color: #E5A9B8;">${passions}</span>]<br/>
+        &nbsp;&nbsp;<span style="color: #A89F95;">current_focus:</span> <span style="color: #E5A9B8;">${focus}</span>
+      </td>
+    </tr>
+  </table>
+</div>
 
 <div align="center">
   <img src="divider.svg" width="80%"/>
@@ -434,26 +425,6 @@ identity:
   <img src="https://img.shields.io/badge/Vercel-1E1A1B?style=for-the-badge&logo=vercel&logoColor=E5A9B8"/>
   <img src="https://img.shields.io/badge/JetBrains-1E1A1B?style=for-the-badge&logo=jetbrains&logoColor=E5A9B8"/>
   <img src="https://img.shields.io/badge/VS_Code-1E1A1B?style=for-the-badge&logo=visualstudiocode&logoColor=E5A9B8"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="divider.svg" width="80%"/>
-</div>
-
-<br/>
-
-## 📊 Live GitHub Analytics
-
-<div align="center">
-  <a href="https://github.com/${username}">
-    <img src="https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&title_color=E5A9B8&text_color=E8E2D9&bg_color=1E1A1B&border_color=362F32&icon_color=F0B2BE&count_private=true" width="48%"/>
-  </a>
-  &nbsp;
-  <a href="https://github.com/${username}">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=${username}&layout=compact&title_color=E5A9B8&text_color=E8E2D9&bg_color=1E1A1B&border_color=362F32&icon_color=F0B2BE" width="45%"/>
-  </a>
 </div>`;
 
       navigator.clipboard.writeText(markdown).then(() => {

@@ -33,18 +33,18 @@
 
 ## 🥀 About Me
 
-```yaml
-identity:
-  role: Student of B.Tech Computer Science
-  passions: [Data Analytics, Data Engineering, IoT, Creative Coding, UI/UX, AI]
-  location: Earth 🌍
-  current_focus: Data Engineering, AI & Creative Software Development
-```
-
-- 🔮 **Exploring**: Data Engineering pipelines, IoT systems, AI models, and clean design systems.
-- 🎨 **Aesthetic Palette**: Dark noir charcoal, dusty rose pink, and vintage parchment.
-- 💬 **Ask me about**: Python, R, C programming, SQL, and Data Analytics.
-- 📫 **Reach me**: Open for tech discussions, data projects, and creative collaborations.
+<div align="center">
+  <table width="92%" style="background-color: #1A1617; border: 1px solid #362F32; border-radius: 12px; padding: 16px;">
+    <tr>
+      <td style="font-family: 'Fira Code', 'Courier New', monospace; font-size: 14px; color: #E5A9B8; background-color: #1A1617; border: none; text-align: left;">
+        <span style="color: #627880;">identity:</span><br/>
+        &nbsp;&nbsp;<span style="color: #A89F95;">role:</span> <span style="color: #E5A9B8; font-weight: bold;">Student of B.Tech Computer Science</span><br/>
+        &nbsp;&nbsp;<span style="color: #A89F95;">passions:</span> [<span style="color: #E5A9B8;">Data Analytics, Data Engineering, IoT, Creative Coding, UI/UX, AI</span>]<br/>
+        &nbsp;&nbsp;<span style="color: #A89F95;">current_focus:</span> <span style="color: #E5A9B8;">Data Engineering, AI &amp; Creative Software Development</span>
+      </td>
+    </tr>
+  </table>
+</div>
 
 <br/>
 
@@ -58,16 +58,11 @@ identity:
 
 <div align="center">
 
-  <!-- Languages -->
   <img src="https://img.shields.io/badge/Python-1E1A1B?style=for-the-badge&logo=python&logoColor=E5A9B8" alt="Python"/>
   <img src="https://img.shields.io/badge/C-1E1A1B?style=for-the-badge&logo=c&logoColor=E5A9B8" alt="C"/>
   <img src="https://img.shields.io/badge/R-1E1A1B?style=for-the-badge&logo=r&logoColor=E5A9B8" alt="R"/>
   <img src="https://img.shields.io/badge/MySQL-1E1A1B?style=for-the-badge&logo=mysql&logoColor=E5A9B8" alt="MySQL"/>
   <img src="https://img.shields.io/badge/SQLite-1E1A1B?style=for-the-badge&logo=sqlite&logoColor=E5A9B8" alt="SQLite"/>
-
-  <br/><br/>
-
-  <!-- Web & Tools -->
   <img src="https://img.shields.io/badge/HTML5-1E1A1B?style=for-the-badge&logo=html5&logoColor=E5A9B8" alt="HTML5"/>
   <img src="https://img.shields.io/badge/CSS3-1E1A1B?style=for-the-badge&logo=css3&logoColor=E5A9B8" alt="CSS3"/>
   <img src="https://img.shields.io/badge/GitHub-1E1A1B?style=for-the-badge&logo=github&logoColor=E5A9B8" alt="GitHub"/>
@@ -85,7 +80,7 @@ identity:
 
 <br/>
 
-## 📊 Live Real-Time GitHub Activity & Analytics
+## 📊 Live Real-Time GitHub Analytics
 
 <div align="center">
 
