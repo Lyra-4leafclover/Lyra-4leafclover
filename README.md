@@ -20,7 +20,7 @@
 
   <!-- Quote Section -->
   <p align="center">
-    <i>"Art is not what you see, but what you make others see."</i><br/>
+    <i>"Life meets you at your level of audacity."</i><br/>
     <sub><b>✦ Crafting functional beauty in code ✦</b></sub>
   </p>
 
