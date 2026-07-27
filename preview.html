@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Profile Theme - Lyra-4leafclover</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@300;400;500;600&family=Fira+Code&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --bg-dark: #121011;
+      --card-bg: #1A1718;
+      --card-border: #2E2729;
+      --accent-rose: #E5A9B8;
+      --accent-glow: rgba(229, 169, 184, 0.2);
+      --text-main: #E8E2D9;
+      --text-muted: #A89F95;
+      --accent-mauve: #B88E9C;
+      --slate-teal: #627880;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background: linear-gradient(180deg, #1B1718 0%, #121011 100%);
+      border-bottom: 1px solid var(--card-border);
+      padding: 1.2rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand-title {
+      font-family: 'Cinzel', serif;
+      font-size: 1.3rem;
+      color: var(--accent-rose);
+      letter-spacing: 2px;
+    }
+
+    .actions {
+      display: flex;
+      gap: 12px;
+    }
+
+    .btn {
+      background: var(--card-bg);
+      color: var(--accent-rose);
+      border: 1px solid var(--accent-rose);
+      padding: 8px 18px;
+      border-radius: 8px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.25s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.9rem;
+    }
+
+    .btn:hover {
+      background: var(--accent-rose);
+      color: var(--bg-dark);
+      box-shadow: 0 0 15px var(--accent-glow);
+    }
+
+    .btn-primary {
+      background: var(--accent-rose);
+      color: var(--bg-dark);
+      border: 1px solid var(--accent-rose);
+    }
+
+    .btn-primary:hover {
+      background: #F0B2BE;
+      box-shadow: 0 0 20px rgba(240, 178, 190, 0.4);
+    }
+
+    .app-container {
+      display: grid;
+      grid-template-columns: 360px 1fr;
+      flex: 1;
+      overflow: hidden;
+    }
+
+    .sidebar {
+      background: var(--card-bg);
+      border-right: 1px solid var(--card-border);
+      padding: 1.5rem;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .section-title {
+      font-family: 'Cinzel', serif;
+      font-size: 1.05rem;
+      color: var(--accent-rose);
+      border-bottom: 1px stroke var(--card-border);
+      padding-bottom: 6px;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    label {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    input, textarea {
+      background: #121011;
+      border: 1px solid var(--card-border);
+      color: var(--text-main);
+      padding: 10px 12px;
+      border-radius: 6px;
+      font-family: inherit;
+      font-size: 0.9rem;
+      outline: none;
+      transition: border-color 0.2s ease;
+    }
+
+    input:focus, textarea:focus {
+      border-color: var(--accent-rose);
+      box-shadow: 0 0 8px var(--accent-glow);
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 70px;
+    }
+
+    .preview-canvas {
+      padding: 2.5rem;
+      overflow-y: auto;
+      background: #0d1117;
+      display: flex;
+      justify-content: center;
+    }
+
+    .readme-paper {
+      background: #0d1117;
+      width: 100%;
+      max-width: 880px;
+      border: 1px solid #30363d;
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+    }
+
+    .preview-header img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+    }
+
+    .typing-container {
+      text-align: center;
+      margin: 1.5rem 0 1rem 0;
+    }
+
+    .quote-box {
+      text-align: center;
+      font-style: italic;
+      color: var(--accent-rose);
+      margin: 1rem 0;
+    }
+
+    .divider-img {
+      display: block;
+      margin: 1.5rem auto;
+      width: 85%;
+    }
+
+    .bio-box {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 8px;
+      padding: 1rem 1.2rem;
+      font-family: 'Fira Code', monospace;
+      font-size: 0.88rem;
+      color: var(--accent-rose);
+      margin: 1rem 0;
+    }
+
+    .tech-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin: 1.2rem 0;
+    }
+
+    .stats-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      justify-content: center;
+      margin: 1.5rem 0;
+    }
+
+    .toast {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background: var(--accent-rose);
+      color: var(--bg-dark);
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: 600;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+      transform: translateY(100px);
+      opacity: 0;
+      transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .toast.show {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="brand">
+      <span style="font-size: 1.5rem;">🥀</span>
+      <h1 class="brand-title">Lyra-4leafclover Profile Suite</h1>
+    </div>
+    <div class="actions">
+      <button class="btn" onclick="openSvgBanner()">🖼️ View SVG Banner</button>
+      <button class="btn btn-primary" onclick="copyMarkdown()">📋 Copy Markdown</button>
+    </div>
+  </header>
+
+  <div class="app-container">
+    <div class="sidebar">
+      <div>
+        <h2 class="section-title">✦ Identity Settings</h2>
+        <div class="form-group" style="margin-top: 10px;">
+          <label>GitHub Username</label>
+          <input type="text" id="input-username" value="Lyra-4leafclover" oninput="updatePreview()"/>
+        </div>
+      </div>
+
+      <div>
+        <h2 class="section-title">✦ Favorite Quote</h2>
+        <div class="form-group">
+          <textarea id="input-quote" oninput="updatePreview()">"Art is not what you see, but what you make others see."</textarea>
+        </div>
+      </div>
+
+      <div>
+        <h2 class="section-title">✦ Bio Info</h2>
+        <div class="form-group">
+          <label>Role</label>
+          <input type="text" id="input-role" value="Student of B.Tech Computer Science" oninput="updatePreview()"/>
+        </div>
+        <div class="form-group" style="margin-top: 10px;">
+          <label>Passions</label>
+          <input type="text" id="input-passions" value="Data Analytics, Data Engineering, IoT, Creative Coding, UI/UX, AI" oninput="updatePreview()"/>
+        </div>
+        <div class="form-group" style="margin-top: 10px;">
+          <label>Current Focus</label>
+          <input type="text" id="input-focus" value="Data Engineering, AI &amp; Creative Software Development" oninput="updatePreview()"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="preview-canvas">
+      <div class="readme-paper">
+        
+        <div class="preview-header">
+          <img src="header-banner.svg" alt="Header Banner"/>
+        </div>
+
+        <div class="typing-container">
+          <img id="preview-typing-img" src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=600&size=22&duration=3000&pause=1000&color=E5A9B8&center=true&vCenter=true&width=500&lines=Welcome+to+my+digital+atelier;Building+thoughtful+software;Where+creativity+meets+code" alt="Typing SVG"/>
+        </div>
+
+        <div class="quote-box" id="preview-quote">
+          <i>"Art is not what you see, but what you make others see."</i><br/>
+          <sub style="color: var(--text-muted);"><b>✦ Crafting functional beauty in code ✦</b></sub>
+        </div>
+
+        <img src="divider.svg" class="divider-img"/>
+
+        <h3 style="color: var(--accent-rose); font-family: 'Cinzel', serif; margin-bottom: 0.5rem;">🥀 About Me</h3>
+        <div class="bio-box">
+          <div><span style="color: var(--slate-teal)">identity:</span></div>
+          <div style="padding-left: 15px;"><span style="color: var(--text-muted)">role:</span> <span id="preview-role" style="color: var(--accent-rose)">Student of B.Tech Computer Science</span></div>
+          <div style="padding-left: 15px;"><span style="color: var(--text-muted)">passions:</span> [<span id="preview-passions" style="color: var(--accent-rose)">Data Analytics, Data Engineering, IoT, Creative Coding, UI/UX, AI</span>]</div>
+          <div style="padding-left: 15px;"><span style="color: var(--text-muted)">current_focus:</span> <span id="preview-focus" style="color: var(--accent-rose)">Data Engineering, AI &amp; Creative Software Development</span></div>
+        </div>
+
+        <img src="divider.svg" class="divider-img"/>
+
+        <h3 style="color: var(--accent-rose); font-family: 'Cinzel', serif; margin-bottom: 0.5rem; text-align: center;">⚔️ Tech Stack &amp; Tools</h3>
+        <div class="tech-badges">
+          <img src="https://img.shields.io/badge/Python-1E1A1B?style=for-the-badge&logo=python&logoColor=E5A9B8"/>
+          <img src="https://img.shields.io/badge/C-1E1A1B?style=for-the-badge&logo=c&logoColor=E5A9B8"/>
+          <img src="https://img.shields.io/badge/R-1E1A1B?style=for-the-badge&logo=r&logoColor=E5A9B8"/>
+          <img src="https://img.shields.io/badge/MySQL-1E1A1B?style=for-the-badge&logo=mysql&logoColor=E5A9B8"/>
+          <img src="https://img.shields.io/badge/SQLite-1E1A1B?style=for-the-badge&logo=sqlite&logoColor=E5A9B8"/>
+          <img src="https://img.shields.io/badge/HTML5-1E1A1B?style=for-the-badge&logo=html5&logoColor=E5A9B8"/>
+          <img src="https://img.shields.io/badge/CSS3-1E1A1B?style=for-the-badge&logo=css3&logoColor=E5A9B8"/>
+          <img src="https://img.shields.io/badge/GitHub-1E1A1B?style=for-the-badge&logo=github&logoColor=E5A9B8"/>
+          <img src="https://img.shields.io/badge/Vercel-1E1A1B?style=for-the-badge&logo=vercel&logoColor=E5A9B8"/>
+          <img src="https://img.shields.io/badge/JetBrains-1E1A1B?style=for-the-badge&logo=jetbrains&logoColor=E5A9B8"/>
+          <img src="https://img.shields.io/badge/VS_Code-1E1A1B?style=for-the-badge&logo=visualstudiocode&logoColor=E5A9B8"/>
+        </div>
+
+        <img src="divider.svg" class="divider-img"/>
+
+        <h3 style="color: var(--accent-rose); font-family: 'Cinzel', serif; margin-bottom: 0.3rem; text-align: center;">📊 Live Real-Time GitHub Analytics</h3>
+        <p style="text-align: center; font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1rem;">
+          ⚡ <i>100% Real-time live synced with Lyra-4leafclover's GitHub commits &amp; activity</i>
+        </p>
+        <div style="text-align: center; display: flex; flex-direction: column; gap: 16px; align-items: center;">
+          <img src="https://github-readme-activity-graph.vercel.app/graph?username=Lyra-4leafclover&bg_color=1E1A1B&color=E5A9B8&line=E5A9B8&point=F0B2BE&area=true&hide_border=false&border=362F32" width="94%" style="border-radius: 8px;"/>
+          <img src="https://streak-stats.demolab.com/?user=Lyra-4leafclover&background=1E1A1B&border=362F32&stroke=E5A9B8&ring=E5A9B8&fire=F0B2BE&currStreakNum=E8E2D9&sideNums=E8E2D9&currStreakLabel=E5A9B8&sideLabels=A89F95&dates=A89F95" width="94%" style="border-radius: 8px;"/>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast">✨ Markdown Copied to Clipboard!</div>
+
+  <script>
+    function updatePreview() {
+      const username = document.getElementById('input-username').value.trim() || 'Lyra-4leafclover';
+      const quote = document.getElementById('input-quote').value;
+      const role = document.getElementById('input-role').value;
+      const passions = document.getElementById('input-passions').value;
+      const focus = document.getElementById('input-focus').value;
+
+      document.getElementById('preview-quote').innerHTML = `<i>"${quote}"</i><br/><sub style="color: var(--text-muted);"><b>✦ Crafting functional beauty in code ✦</b></sub>`;
+      document.getElementById('preview-role').textContent = role;
+      document.getElementById('preview-passions').textContent = passions;
+      document.getElementById('preview-focus').textContent = focus;
+
+      document.getElementById('preview-stats').src = `https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&title_color=E5A9B8&text_color=E8E2D9&bg_color=1E1A1B&border_color=362F32&icon_color=F0B2BE&count_private=true`;
+      document.getElementById('preview-langs').src = `https://github-readme-stats.vercel.app/api/top-langs/?username=${username}&layout=compact&title_color=E5A9B8&text_color=E8E2D9&bg_color=1E1A1B&border_color=362F32&icon_color=F0B2BE`;
+    }
+
+    function openSvgBanner() {
+      window.open('header-banner.svg', '_blank');
+    }
+
+    function copyMarkdown() {
+      const username = document.getElementById('input-username').value.trim() || 'Lyra-4leafclover';
+      const quote = document.getElementById('input-quote').value;
+      const role = document.getElementById('input-role').value;
+      const passions = document.getElementById('input-passions').value;
+      const focus = document.getElementById('input-focus').value;
+
+      const markdown = `<div align="center">
+  <img src="header-banner.svg" alt="Header Banner" width="100%"/>
+  <br/><br/>
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=600&size=22&duration=3000&pause=1000&color=E5A9B8&center=true&vCenter=true&width=500&lines=Welcome+to+my+digital+atelier;Building+thoughtful+software;Where+creativity+meets+code" alt="Typing SVG" />
+  </a>
+  <br/>
+  <p align="center">
+    <i>"${quote}"</i><br/>
+    <sub><b>✦ Crafting functional beauty in code ✦</b></sub>
+  </p>
+  <img src="divider.svg" width="80%"/>
+</div>
+
+<br/>
+
+## 🥀 About Me
+
+\`\`\`yaml
+identity:
+  role: ${role}
+  passions: [${passions}]
+  current_focus: ${focus}
+\`\`\`
+
+- 🔮 **Exploring**: Data Engineering pipelines, IoT systems, AI models, and clean design systems.
+- 🎨 **Aesthetic Palette**: Dark noir charcoal, dusty rose pink, and vintage parchment.
+- 💬 **Ask me about**: Python, R, C programming, SQL, and Data Analytics.
+
+<div align="center">
+  <img src="divider.svg" width="80%"/>
+</div>
+
+<br/>
+
+## ⚔️ Tech Stack & Tools
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Python-1E1A1B?style=for-the-badge&logo=python&logoColor=E5A9B8"/>
+  <img src="https://img.shields.io/badge/C-1E1A1B?style=for-the-badge&logo=c&logoColor=E5A9B8"/>
+  <img src="https://img.shields.io/badge/R-1E1A1B?style=for-the-badge&logo=r&logoColor=E5A9B8"/>
+  <img src="https://img.shields.io/badge/MySQL-1E1A1B?style=for-the-badge&logo=mysql&logoColor=E5A9B8"/>
+  <img src="https://img.shields.io/badge/SQLite-1E1A1B?style=for-the-badge&logo=sqlite&logoColor=E5A9B8"/>
+  <img src="https://img.shields.io/badge/HTML5-1E1A1B?style=for-the-badge&logo=html5&logoColor=E5A9B8"/>
+  <img src="https://img.shields.io/badge/CSS3-1E1A1B?style=for-the-badge&logo=css3&logoColor=E5A9B8"/>
+  <img src="https://img.shields.io/badge/GitHub-1E1A1B?style=for-the-badge&logo=github&logoColor=E5A9B8"/>
+  <img src="https://img.shields.io/badge/Vercel-1E1A1B?style=for-the-badge&logo=vercel&logoColor=E5A9B8"/>
+  <img src="https://img.shields.io/badge/JetBrains-1E1A1B?style=for-the-badge&logo=jetbrains&logoColor=E5A9B8"/>
+  <img src="https://img.shields.io/badge/VS_Code-1E1A1B?style=for-the-badge&logo=visualstudiocode&logoColor=E5A9B8"/>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="divider.svg" width="80%"/>
+</div>
+
+<br/>
+
+## 📊 Live GitHub Analytics
+
+<div align="center">
+  <a href="https://github.com/${username}">
+    <img src="https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&title_color=E5A9B8&text_color=E8E2D9&bg_color=1E1A1B&border_color=362F32&icon_color=F0B2BE&count_private=true" width="48%"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/${username}">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=${username}&layout=compact&title_color=E5A9B8&text_color=E8E2D9&bg_color=1E1A1B&border_color=362F32&icon_color=F0B2BE" width="45%"/>
+  </a>
+</div>`;
+
+      navigator.clipboard.writeText(markdown).then(() => {
+        const toast = document.getElementById('toast');
+        toast.classList.add('show');
+        setTimeout(() => toast.classList.remove('show'), 3000);
+      });
+    }
+  </script>
+</body>
+</html>

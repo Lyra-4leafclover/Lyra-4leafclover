@@ -85,13 +85,21 @@ identity:
 
 <br/>
 
-## 📊 GitHub Analytics & Overview
+## 📊 Live Real-Time GitHub Activity & Analytics
 
 <div align="center">
 
-  <img src="stats-card.svg" alt="GitHub Overview Card" width="48%"/>
-  &nbsp;
-  <img src="languages-card.svg" alt="Core Stack Card" width="48%"/>
+  <!-- REAL-TIME LIVE CONTRIBUTION GRAPH -->
+  <a href="https://github.com/Lyra-4leafclover">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Lyra-4leafclover&bg_color=1E1A1B&color=E5A9B8&line=E5A9B8&point=F0B2BE&area=true&hide_border=false&border=362F32" alt="Real-Time Contribution Activity Graph" width="94%"/>
+  </a>
+
+  <br/><br/>
+
+  <!-- REAL-TIME STREAK STATS -->
+  <a href="https://github.com/Lyra-4leafclover">
+    <img src="https://streak-stats.demolab.com/?user=Lyra-4leafclover&background=1E1A1B&border=362F32&stroke=E5A9B8&ring=E5A9B8&fire=F0B2BE&currStreakNum=E8E2D9&sideNums=E8E2D9&currStreakLabel=E5A9B8&sideLabels=A89F95&dates=A89F95" alt="Real-Time Streak Stats" width="94%"/>
+  </a>
 
 </div>
 
