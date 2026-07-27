@@ -115,6 +115,6 @@
 
   <br/><br/>
 
-  <p fill="#A89F95"><i>Crafted for Lyra-4leafclover 🌸</i></p>
+  <p align="center"><i>"Never regret having a good heart. Everything comes back to you, multiplied."</i> 🌸</p>
 
 </div>
