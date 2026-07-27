@@ -24,11 +24,6 @@
     <sub><b>✦ Crafting functional beauty in code ✦</b></sub>
   </p>
 
-  <br/>
-
-  <!-- Aesthetic Visitor Counter Badge -->
-  <img src="https://komarev.com/ghpvc/?username=Lyra-4leafclover&color=E5A9B8&style=for-the-badge&label=VISITORS%20✦" alt="Profile Visitors"/>
-
   <!-- Section Divider -->
   <img src="divider.svg" width="80%"/>
 
@@ -111,6 +106,11 @@
   <a href="https://x.com/Lyra_void"><img src="https://img.shields.io/badge/X-1E1A1B?style=for-the-badge&logo=x&logoColor=E5A9B8" alt="X"/></a>
   <a href="https://www.reddit.com/user/Lyra-4leafclover/"><img src="https://img.shields.io/badge/Reddit-1E1A1B?style=for-the-badge&logo=reddit&logoColor=E5A9B8" alt="Reddit"/></a>
   <a href="mailto:dollarssparklevoid@gmail.com"><img src="https://img.shields.io/badge/Email-1E1A1B?style=for-the-badge&logo=gmail&logoColor=E5A9B8" alt="Email"/></a>
+
+  <br/><br/>
+
+  <!-- Profile Visitor Counter Badge -->
+  <img src="https://komarev.com/ghpvc/?username=Lyra-4leafclover&color=E5A9B8&labelColor=1E1A1B&style=for-the-badge&label=PROFILE%20VISITS%20✦" alt="Profile Visits"/>
 
   <br/><br/>
 
