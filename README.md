@@ -34,7 +34,7 @@
 ## 🥀 About Me
 
 <div align="center">
-  <img src="about-card.svg" alt="About Me Identity" width="94%"/>
+  <img src="about-card.svg?v=2" alt="About Me Identity" width="94%"/>
 </div>
 
 <br/>
