@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 30" width="100%" height="30">
+  <defs>
+    <linearGradient id="line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E5A9B8" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#E5A9B8" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#E5A9B8" stop-opacity="0.8"/>
+      <stop offset="65%" stop-color="#E5A9B8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#E5A9B8" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  
+  <line x1="50" y1="15" x2="370" y2="15" stroke="url(#line-grad)" stroke-width="1.2"/>
+  <line x1="430" y1="15" x2="750" y2="15" stroke="url(#line-grad)" stroke-width="1.2"/>
+  
+  <!-- Center Lily / Flower Ornament -->
+  <g transform="translate(400, 15)" fill="#E5A9B8">
+    <circle cx="0" cy="0" r="3" fill="#F0B2BE"/>
+    <!-- Diamond/Star Accents -->
+    <path d="M 0,-8 L 2.5,-2 L 8.5,0 L 2.5,2 L 0,8 L -2.5,2 L -8.5,0 L -2.5,-2 Z" opacity="0.85"/>
+    <circle cx="-16" cy="0" r="1.5" opacity="0.6"/>
+    <circle cx="16" cy="0" r="1.5" opacity="0.6"/>
+  </g>
+</svg>
