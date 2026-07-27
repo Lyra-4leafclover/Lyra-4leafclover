@@ -105,7 +105,7 @@
   <a href="https://orion-the-hunter-blog.vercel.app/"><img src="https://img.shields.io/badge/Website-1E1A1B?style=for-the-badge&logo=vercel&logoColor=E5A9B8" alt="Website"/></a>
   <a href="https://x.com/Lyra_void"><img src="https://img.shields.io/badge/X-1E1A1B?style=for-the-badge&logo=x&logoColor=E5A9B8" alt="X"/></a>
   <a href="https://www.reddit.com/user/Lyra-4leafclover/"><img src="https://img.shields.io/badge/Reddit-1E1A1B?style=for-the-badge&logo=reddit&logoColor=E5A9B8" alt="Reddit"/></a>
-  <a href="mailto:dollarssparklevoid@gmail.com"><img src="https://img.shields.io/badge/Email-1E1A1B?style=for-the-badge&logo=gmail&logoColor=E5A9B8" alt="Email"/></a>
+  <a href="mailto:dollarssparklevoid@gmail.com"><img src="https://img.shields.io/badge/Email-1E1A1B?style=for-the-badge&logo=gmail&logoColor=E5A9B8" alt="Email"/></a><br/>
   <img src="https://komarev.com/ghpvc/?username=Lyra-4leafclover&color=E5A9B8&labelColor=1E1A1B&style=for-the-badge&label=PROFILE%20VISITS%20✦" alt="Profile Visits"/>
 
   <p align="center"><i>"Never regret having a good heart. Everything comes back to you, multiplied."</i> 🌸</p>
