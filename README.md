@@ -24,6 +24,11 @@
     <sub><b>✦ Crafting functional beauty in code ✦</b></sub>
   </p>
 
+  <br/>
+
+  <!-- Aesthetic Visitor Counter Badge -->
+  <img src="https://komarev.com/ghpvc/?username=Lyra-4leafclover&color=E5A9B8&style=for-the-badge&label=VISITORS%20✦" alt="Profile Visitors"/>
+
   <!-- Section Divider -->
   <img src="divider.svg" width="80%"/>
 
